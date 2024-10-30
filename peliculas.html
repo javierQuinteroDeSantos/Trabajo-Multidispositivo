@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas - Sitio de Películas</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="imagenes/Logo.jpg" alt="Logo" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="peliculas.html">Películas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Formulario de Envío</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Tabs de Películas -->
+    <div class="container mt-5">
+        <ul class="nav nav-tabs" id="movieTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="informacion-tab" data-toggle="tab" href="#informacion" role="tab">Información General</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="sinopsis-tab" data-toggle="tab" href="#sinopsis" role="tab">Sinopsis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="reparto-tab" data-toggle="tab" href="#reparto" role="tab">Reparto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="criticas-tab" data-toggle="tab" href="#criticas" role="tab">Críticas</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <!-- Información General -->
+            <div class="tab-pane fade show active" id="informacion" role="tabpanel">
+                <p>Información general de las películas.</p>
+                <h1 class="mt-4">Listado de Películas</h1>
+                <div class="table-responsive mt-4">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Año</th>
+                                <th>Director</th>
+                                <th>Género</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cadena Perpetua</td>
+                                <td>1994</td>
+                                <td>Frank Darabont</td>
+                                <td>Epic, Prison Drama, Drama</td>
+                            </tr>
+                            <tr>
+                                <td>El Padrino</td>
+                                <td>1972</td>
+                                <td>Francis Ford Coppola</td>
+                                <td>Epic, Gangster, Tragedy, Crime, Drama</td>
+                            </tr>
+                            <tr>
+                                <td>El Caballero Oscuro</td>
+                                <td>2008</td>
+                                <td>Christopher Nolan</td>
+                                <td>Action Epic, Superhero, Action, Crime, Drama, Thriller</td>
+                            </tr>
+                            <tr>
+                                <td>El Padrino Parte II</td>
+                                <td>1974</td>
+                                <td>Francis Ford Coppola</td>
+                                <td>Epic, Gangster, Tragedy, Crime, Drama</td>
+                            </tr>
+                            <tr>
+                                <td>12 Hombres Sin Piedad</td>
+                                <td>1957</td>
+                                <td>Sidney Lumet</td>
+                                <td>Legal Drama, Psychological Drama, Crime, Drama</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Sinopsis -->
+            <div class="tab-pane fade" id="sinopsis" role="tabpanel">
+                <p>Descripción y sinopsis de las películas.</p>
+            </div>
+
+            <!-- Reparto -->
+            <div class="tab-pane fade" id="reparto" role="tabpanel">
+                <p>Lista del reparto de las películas.</p>
+            </div>
+
+            <!-- Críticas -->
+            <div class="tab-pane fade" id="criticas" role="tabpanel">
+                <p>Críticas y comentarios sobre las películas.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

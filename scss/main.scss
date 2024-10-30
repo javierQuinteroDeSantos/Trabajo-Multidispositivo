@@ -1,0 +1,16 @@
+// Importar variables
+@import 'variables';
+
+// Importar estilos base
+@import 'base/reset';
+@import 'base/typography';
+
+// Importar componentes
+@import 'components/navbar';
+@import 'components/buttons';
+
+// Importar layouts y temas si los hay
+@import 'layout/header';
+@import 'layout/footer';
+@import 'themes/theme-dark';
+@import 'themes/theme-light';

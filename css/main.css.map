@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../scss/base/_reset.scss",
+        "../scss/base/_typography.scss",
+        "../scss/variables.scss",
+        "../scss/components/_navbar.scss",
+        "../scss/components/_buttons.scss"
+    ],
+    "names": [],
+    "mappings": "AACA;EACI;EACA;EACA;;;ACJJ;EACI,aCKS;EDJT,WCKa;EDJb,OCDc;EDEd,kBCDe;EDEf;;;AELJ;EACI;;AAEA;EACE;;AAGF;EACE;;AAEA;EACE;;;ACXR;EACI;EACA,cFDY;;AEGZ;EACE;;;AAIJ;EACE,kBFRc;EESd,cFTc;;AEWd;EACE",
+    "file": "main.css"
+}
